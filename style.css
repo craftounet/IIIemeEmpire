@@ -1,1 +1,22 @@
+body {
+  font-family: Arial;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
 
+nav {
+  background-color: #222;
+  padding: 10px;
+}
+
+nav a {
+  color: gold;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
