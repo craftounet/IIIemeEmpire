@@ -1,89 +1,76 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  color: white;
   text-align: center;
-  overflow-x: hidden;
+
+  background: linear-gradient(135deg, #0B1F3A, #1B2A41);
+  color: white;
+
   padding-top: 70px;
 }
 
-/* DRAPEAU ANIMÉ EN FOND */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  background: url("empire.jpg");
-  background-size: cover;
-  background-position: center;
-
-  opacity: 0.15; /* transparence pour voir le texte */
-  z-index: -1;
-
-}
-
-
-/* NAV */
+/* BANDEAU */
 nav {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
 
-  background: linear-gradient(90deg, #C8102E, #8B0E22);
+  background: linear-gradient(90deg, #8B1E2D, #5C0F1A);
   padding: 12px 0;
 
   display: flex;
   justify-content: center;
   gap: 30px;
 
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid #D4AF37;
 
   box-shadow: 0 4px 15px rgba(0,0,0,0.6);
   z-index: 1000;
 }
+
+/* LIENS */
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  letter-spacing: 1px;
 
-  padding: 8px 15px;
-  border-radius: 6px;
+  padding: 6px 12px;
+  border-radius: 5px;
 
   transition: 0.3s;
-  letter-spacing: 1px;
 }
 
 nav a:hover {
-  background: gold;
-  color: #041E42;
-  transform: scale(1.1);
+  background: #D4AF37;
+  color: #0B1F3A;
 }
 
-
-
-/* HERO */
-.hero {
-  margin-top: 120px;
+/* TITRES */
+h1, h2 {
+  color: #D4AF37;
+  letter-spacing: 1px;
 }
 
-.hero h1 {
-  font-size: 45px;
-}
-
+/* BOUTON */
 .btn {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
-  background: gold;
-  color: black;
+  padding: 12px 25px;
+
+  background: #8B1E2D;
+  color: white;
+
   text-decoration: none;
   font-weight: bold;
+
+  border: 1px solid #D4AF37;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #D4AF37;
+  color: #0B1F3A;
 }
 
 /* CARTES */
@@ -96,26 +83,15 @@ nav a:hover {
 }
 
 .card {
-  background: #111;
-  border: 1px solid gold;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #D4AF37;
   padding: 20px;
   width: 220px;
-  text-decoration: none;
-  color: white;
+
   transition: 0.3s;
 }
 
 .card:hover {
   transform: scale(1.05);
-  background: gold;
-  color: black;
-}
-
-/* IMAGE PLACEHOLDER */
-.image-placeholder {
-  margin: 20px auto;
-  width: 60%;
-  padding: 40px;
-  border: 2px dashed gold;
-  color: gray;
+  background: rgba(212,175,55,0.15);
 }
