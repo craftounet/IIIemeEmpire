@@ -17,6 +17,13 @@ body {
 }
 
 
+.logo {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
 
 
 img {
