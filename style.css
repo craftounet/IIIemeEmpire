@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  color: white;
+  text-align: center;
+
+  /* IMAGE DE FOND */
+  background-image: url('fantasy backgroud.jpg'); /* chemin vers ton image */
+  background-size: cover;       /* adapte la taille à l'écran */
+  background-position: center;  /* centre l'image */
+  background-repeat: no-repeat; /* évite la répétition */
+
+.container {
+  margin-top: 20px;
+  width: 320px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+border: 2px solid rgba(255, 215, 0, 0.6); /* bordure dorée semi-transparente */
+
+
+  /* Transparence et flou */
+  background-color: rgba(0, 0, 0, 0.4); /* noir semi-transparent */
+  backdrop-filter: blur(10px);         /* flou derrière la fiche */
+  -webkit-backdrop-filter: blur(10px); /* compatibilité Safari */
+
+  color: white; /* texte lisible */
+}
+ 
+
+h1 {
+  color: ;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select{
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  background-image: url('parchemin.png');
+  background-size: cover;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+
+
+#fiche {
+  background-image: url('parchemin.png');
+  background-size: cover;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
