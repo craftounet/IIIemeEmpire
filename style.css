@@ -1,9 +1,38 @@
 body {
   margin: 0;
-  font-family:"Times New Roman", Times, serif;
-  background-color: #041E42;
+  font-family: "Times New Roman", Times, serif;
   color: white;
   text-align: center;
+  overflow-x: hidden;
+}
+
+/* DRAPEAU ANIMÉ EN FOND */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: url("drapeau.jpg");
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.15; /* transparence pour voir le texte */
+  z-index: -1;
+
+  animation: wave 6s infinite linear;
+}
+
+/* ANIMATION “ONDE” */
+@keyframes wave {
+  0%   { transform: scale(1.05) translateX(0px); }
+  25%  { transform: scale(1.08) translateX(-10px); }
+  50%  { transform: scale(1.05) translateX(10px); }
+  75%  { transform: scale(1.08) translateX(-10px); }
+  100% { transform: scale(1.05) translateX(0px); }
 }
 
 /* NAV */
