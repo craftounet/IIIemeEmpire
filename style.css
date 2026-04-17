@@ -98,3 +98,18 @@ h1, h2 {
   transform: scale(1.05);
   background: rgba(212,175,55,0.15);
 }
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #D4AF37;
+}
+
+a:active {
+  color: #D4AF37;
+}
