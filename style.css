@@ -4,7 +4,7 @@ body {
   text-align: center;
 
   /* IMAGE DE FOND */
-  background-image: url('fantasy backgroud.jpg'); /* chemin vers ton image */
+  background-image: url('Drapeau Empire (drapeau irl).png'); /* chemin vers ton image */
   background-size: cover;       /* adapte la taille à l'écran */
   background-position: center;  /* centre l'image */
   background-repeat: no-repeat; /* évite la répétition */
