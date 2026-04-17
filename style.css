@@ -28,21 +28,43 @@ body::before {
 
 /* NAV */
 nav {
-  background: #C8102E;
-  opacity: 0.05
-  padding: 15px;
-}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
+  background: linear-gradient(90deg, #C8102E, #8B0E22);
+  padding: 12px 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  border-bottom: 2px solid gold;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  z-index: 1000;
+}
 nav a {
-  color: gold;
-  margin: 15px;
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+
+  padding: 8px 15px;
+  border-radius: 6px;
+
+  transition: 0.3s;
+  letter-spacing: 1px;
 }
 
 nav a:hover {
-  color: white;
+  background: gold;
+  color: #041E42;
+  transform: scale(1.1);
 }
+
+
 
 /* HERO */
 .hero {
