@@ -11,7 +11,18 @@ body {
     radial-gradient(circle at bottom, rgba(212,175,55,0.10), transparent 50%),
     linear-gradient(135deg, #061A33, #0B1F3A, #081427);
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
+  background: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  opacity: 0.05;
+  pointer-events: none;
+}
 img {
   filter: contrast(1.1) brightness(0.9);
 }
