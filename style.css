@@ -23,21 +23,13 @@ body::before {
   opacity: 0.15; /* transparence pour voir le texte */
   z-index: -1;
 
-  animation: wave 6s infinite linear;
 }
 
-/* ANIMATION “ONDE” */
-@keyframes wave {
-  0%   { transform: scale(1.05) translateX(0px); }
-  25%  { transform: scale(1.08) translateX(-10px); }
-  50%  { transform: scale(1.05) translateX(10px); }
-  75%  { transform: scale(1.08) translateX(-10px); }
-  100% { transform: scale(1.05) translateX(0px); }
-}
 
 /* NAV */
 nav {
   background: #C8102E;
+  opacity: 0.05
   padding: 15px;
 }
 
