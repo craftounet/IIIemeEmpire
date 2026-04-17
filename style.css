@@ -116,6 +116,9 @@ h1, h2 {
   transform: scale(1.05);
   background: rgba(212,175,55,0.15);
 }
+.card {
+  text-align: center;
+}
 
 a:link {
   color: white;
