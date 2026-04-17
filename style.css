@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family:"Times New Roman", Times, serif;
   background-color: #0a0a0a;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 /* NAV */
 nav {
-  background: white;
+  background: black;
   padding: 15px;
 }
 
